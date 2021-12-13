@@ -1,1 +1,0 @@
-# SiMoed-Kelompok-K-RKPL
