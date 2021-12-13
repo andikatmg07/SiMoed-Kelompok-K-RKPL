@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.utama{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    overflow: auto;
+    clear: both;
+}
+
+.header 
+{
+  text-align: center;
+  color: white;
+}
+
+.header h1
+{
+  font-size: 100px; 
+}
+
+.header p
+{
+  font-size: 20px;
+}
+
+.container{
+    font-style: sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.container h2{
+    text-align: center;
+    color: #483D8B;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid purple;
+}
+.container label{
+    text-align: left;
+    color: #483D8B;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple;
+    color: black;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:purple;
+    font-size: 18px;
+    color: white;
+}
+
+.tombol2
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: georgia;
+}
+ 
+.tombol2:hover
+{
+    background-color: white;
+    transition-duration: 2s;
+    align : center;
+}
+ 
+.tombol-pesan2
+{
+    background-color: #AFEEEE;
+}

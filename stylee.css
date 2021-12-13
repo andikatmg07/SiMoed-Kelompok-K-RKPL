@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a
+{
+    font-family: georgia;
+}
+
+h2{
+    text-align: center;
+    color: white
+}
+
+
+.utama{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    overflow: auto;
+    clear: both;
+}
+
+.header 
+{
+  text-align: center;
+  color: white;
+}
+
+.header h1
+{
+  font-size: 100px; 
+}
+
+.header p
+{
+    font-size: 20px;
+}
+
+.container{
+    position: absolute;
+    top: 45%;
+    padding: 20px 25px;
+
+}
+
+.container1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 280px;
+}
+
+.containera{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 280px;
+
+}
+
+.kiri
+{
+    width: 680px;
+    float: left;
+}
+ 
+.kanan
+{
+    float: right;
+    width-left: 500;
+}
+
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 230px;
+    height: 50px;
+    color: black;
+    font-size: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: georgia;
+}
+ 
+.tombol:hover
+{
+    background-color: white;
+    transition-duration: 2s;
+    align : center;
+}
+ 
+.tombol-pesan
+{
+    background-color: #AFEEEE;
+}
+
+.footer{
+    
+    margin: 10px;
+    background-color: darkorange;
+    float: right;
+    left: 80%;
+    top: 80%;
+}
+.footer p{
+    text-align: center;
+    margin-left: 20px;
+    padding-top : 21px;
+    padding-bottom : 21px;
+    padding-left: 148px;
+    padding-right: 148px;
+} 
